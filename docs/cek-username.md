@@ -34,7 +34,7 @@ Berikut adalah parameter yang di harapkan
 ### Contoh
 
 ```bash
-{{url_local}}/merchant/YOUR-MERCHANT-ID/cek-account/mobilelegend?username=101990303&signature=e27e38e3f9gd78dfe93t2898b74982b9
+https://v1.apigames.id/merchant/YOUR-MERCHANT-ID/cek-account/mobilelegend?username=101990303&signature=e27e38e3f9gd78dfe93t2898b74982b9
 ```
 
 ## Response Cek Akun Freefire
