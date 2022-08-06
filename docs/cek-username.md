@@ -9,7 +9,7 @@ Melakukan pengecekan akun game, saat ini tersedia untuk **Free Fire**, **Mobile 
 ## Endpoint
 
 ```bash
-https://v1.apigames.id/merchant/[merchant_id]/cek-account/[game_code]?user_id=[user_id]&signature=[singature]
+https://v1.apigames.id/merchant/[merchant_id]/cek-username/[game_code]?user_id=[user_id]&signature=[singature]
 ```
 
 ## HTTP Method
@@ -34,7 +34,7 @@ Berikut adalah parameter yang di harapkan
 ### Contoh
 
 ```bash
-https://v1.apigames.id/merchant/YOUR-MERCHANT-ID/cek-account/mobilelegend?username=101990303&signature=e27e38e3f9gd78dfe93t2898b74982b9
+https://v1.apigames.id/merchant/YOUR-MERCHANT-ID/cek-username/mobilelegend?username=101990303&signature=e27e38e3f9gd78dfe93t2898b74982b9
 ```
 
 ## Response Cek Akun Freefire
