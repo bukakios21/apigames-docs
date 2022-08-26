@@ -32,7 +32,7 @@ Berikut adalah parameter yang di harapkan
 ### Contoh
 
 ```bash
-{{url_local}}/merchant/YOUR-MERCHANT-ID?signature=YOUR-SIGNATURE-HERE
+https://v1.apigames.id/merchant/YOUR-MERCHANT-ID?signature=YOUR-SIGNATURE-HERE
 ```
 
 ## Response Info Akun
