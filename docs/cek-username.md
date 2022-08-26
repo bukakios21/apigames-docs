@@ -9,7 +9,7 @@ Melakukan pengecekan akun game, saat ini tersedia untuk **Free Fire**, **Mobile 
 ## Endpoint
 
 ```bash
-https://v1.apigames.id/merchant/[merchant_id]/cek-username/[game_code]?user_id=[user_id]&signature=[singature]
+https://v1.apigames.id/merchant/[merchant_id]/cek-username/[game_code]?username=[username]&signature=[singature]
 ```
 
 ## HTTP Method
@@ -28,7 +28,7 @@ Berikut adalah parameter yang di harapkan
 | ----------- | ------------------------------------------------------------------------------------------------ | --------- | ----- |
 | merchant_id | Merchant ID Anda [Lihat Pengaturan Secret Key](https://member.apigames.id/pengaturan/secret-key) | String    | Ya    |
 | game_code | Kode game yang ingin dicek tersedia **mobilelegend** , **freefire**, **higgs**           | String    | Ya    |
-| user_id      | User ID akun yang akan dicek                                                                                 | String    | Ya    |
+| username      | User ID akun yang akan dicek                                                                                 | String    | Ya    |
 | signature  |    Signature Cek akun  dengan formula **md5(merchant_id+secret_key**)                               | String    | Ya    |
 
 ### Contoh
