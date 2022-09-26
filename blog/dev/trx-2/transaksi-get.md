@@ -1,11 +1,10 @@
----
-sidebar_position: 2
----
+<!-- ---
+sidebar_position: 1
+--- -->
 
-# Menggunakan Method POST Versi 2
+# Menggunakan Method GET Versi 2
 
-Melakukan pembelian produk menggunakan Metode POST melalui api versi 2
-
+Melakukan pembelian produk menggunakan Metode GET VERSI 2
 
 :::warning
 [BACA KETENTUAN](/docs/peringatan)
@@ -14,20 +13,20 @@ Melakukan pembelian produk menggunakan Metode POST melalui api versi 2
 ## Endpoint
 
 ```bash
-https://v1.apigames.id/v2/transaksi
+https://v1.apigames.id/v2/transaksi?ref_id=[ref_id]&merchant_id=[merchant_id]&produk=[kode_produk]&tujuan=[tujuan]&signature=[signature]&server_id=[server_id]
 ```
 
 ## HTTP Method
 
 ```
-POST
+GET
 ```
 
 ## Request
 
 ### Deskripsi
 
-Berikut adalah struktur JSON yang diharapkan:
+Berikut adalah parameter yang di harapkan
 
 | Parameter   | Deskripsi                                                                                        | Tipe Data | Wajib |
 | ----------- | ------------------------------------------------------------------------------------------------ | --------- | ----- |
@@ -35,18 +34,13 @@ Berikut adalah struktur JSON yang diharapkan:
 | merchant_id | Merchant ID Anda [Lihat Pengaturan Secret Key](https://member.apigames.id/pengaturan/secret-key) | String    | Ya    |
 | produk      | Kode Produk [_Bisa menggunakan prefix custom misalnya **AGML80** untuk produk **ML80**_](#)      | String    | Ya    |
 | tujuan      | Tujuan Pengisian                                                                                 | String    | Ya    |
+| server_id      | Jika produk tidak memilik server_id, maka kosongkan saja                                                                                 | String    | Tidak    |
 | signature   | Signature dengan formula **md5(merchant_id:secret_key:ref_id)**      | String    | Ya    |
 
 ### Contoh
 
-```json
-{
-  "ref_id": "TRX0007",
-  "merchant_id": "M220122BUKA1954B",
-  "produk": "ML86",
-  "tujuan": "77698934212097",
-  "signature": "fa375f4e30dbe2cdcf5d1ee0e9d678ad"
-}
+```bash
+https://v1.apigames.id/v2/transaksi?ref_id=sdfs&merchant_id=M220122MLSS1954B&produk=ff5&tujuan=4645&signature=30d19bbcd6c9784c020b135c818e8291c00e1a3d12e143c7bb924492c1e57cfb&server_id
 ```
 
 ## Response
@@ -82,7 +76,3 @@ Berikut adalah struktur JSON yang diharapkan:
 ```
 
 ### Contoh Response Gagal
-
-```json
-
-```
