@@ -6,11 +6,16 @@ sidebar_position: 3
 
 Pengecekan status transaksi versi 2 menggunakan **Ref ID**
 
+:::warning
+[BACA KETENTUAN](/docs/peringatan)
+:::
+
 ## Endpoint
 
 ```bash
 https://v1.apigames.id/v2/transaksi/status-get-text?merchant_id=[merchant_id]&ref_id=[ref_id]&secret=[secret]
 ```
+
 
 ## HTTP Method
 

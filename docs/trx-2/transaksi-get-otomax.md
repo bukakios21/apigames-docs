@@ -6,6 +6,10 @@ sidebar_position: 2
 
 Melakukan pembelian produk menggunakan Metode GET (versi 2) Khusus untuk software pulsa, otomax, irs, dan software pulsa lainnya, bisa menggunakan jalur transaksi ini
 
+:::warning
+[BACA KETENTUAN](/docs/peringatan)
+:::
+
 ## Endpoint
 
 ```bash

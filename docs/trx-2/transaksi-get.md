@@ -6,6 +6,10 @@ sidebar_position: 1
 
 Melakukan pembelian produk menggunakan Metode GET VERSI 2
 
+:::warning
+[BACA KETENTUAN](/docs/peringatan)
+:::
+
 ## Endpoint
 
 ```bash

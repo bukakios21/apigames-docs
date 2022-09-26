@@ -6,6 +6,11 @@ sidebar_position: 2
 
 Melakukan pembelian produk menggunakan Metode POST melalui api versi 2
 
+
+:::warning
+[BACA KETENTUAN](/docs/peringatan)
+:::
+
 ## Endpoint
 
 ```bash

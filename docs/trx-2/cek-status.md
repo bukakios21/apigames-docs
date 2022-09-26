@@ -6,6 +6,10 @@ sidebar_position: 3
 
 Pengecekan status transaksi versi 2 menggunakan **Ref ID**
 
+:::warning
+[BACA KETENTUAN](/docs/peringatan)
+:::
+
 ## Endpoint
 
 ```bash
