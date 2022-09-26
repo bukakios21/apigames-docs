@@ -16,6 +16,6 @@ Cek status transaksi jangan hit ke api transaksi, tapi lakukan dengan api cek st
 :::
 
 :::danger
-Status transaksi yang di percaya hanya dari **WEBHOOK / REPORT** dan **API CEK STATUS TRANSAKSI**
+Status transaksi yang di percaya hanya dari **WEBHOOK / REPORT** dan **API CEK STATUS TRANSAKSI** berdasarkan status yang sudah tertera di atas.
 :::
 
