@@ -10,9 +10,9 @@ Melakukan pembelian produk menggunakan Metode GET (versi 2) Khusus untuk softwar
 [BACA KETENTUAN](/docs/v2/pendahuluan)
 :::
 
-::danger
+<!-- ::danger
 
-::
+:: -->
 
 ## Endpoint
 

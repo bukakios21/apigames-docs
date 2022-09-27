@@ -12,7 +12,13 @@ Ini merupakan sample webhook yang kami kirimkan kepada anda jika menggunakan tra
 Kami akan mengirimkan report ke webhook anda setiap ada perubahan status transaksi Pastikan untuk Whitelist IP Kami : 107.155.65.115
 :::
 
+## Header
 
+Header yang kami kirimkan dengan Key **X-Apigames-Authorization** dan value dengan Formula md5(merchant_id:secret_key:ref_id) :
+
+```bash
+"X-Apigames-Authorization": "bd134207f74532a8b094676c4a2ca9ed" //md5(merchant_id:secret_key:ref_id)
+```
 
 ## Sample
 
