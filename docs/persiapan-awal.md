@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Persiapan Awal
+#  Persiapan Awal 
 
 - Kunjungi [Pengaturan Koneksi](https://member.apigames.id/koneksi) untuk setting kiosgamer / smile one coin
 - Dapatkan **Secret Key** & **Merchant ID** di halaman [Pengaturan Secret Key](https://member.apigames.id/pengaturan/secret-key)

@@ -53,11 +53,11 @@ const config = {
             position: 'left',
             label: 'Dokumentasi API',
           },
-          {
-            href:'https://documenter.getpostman.com/view/20401599/UVyvvZjR#f8284e97-8b68-47ff-b803-c5190b6fcd88',
-            position: 'left',
-            label: 'Simulasi API',
-          },
+          // {
+          //   href:'https://documenter.getpostman.com/view/20401599/UVyvvZjR#f8284e97-8b68-47ff-b803-c5190b6fcd88',
+          //   position: 'left',
+          //   label: 'Simulasi API',
+          // },
           // {
           //   to: '/blog',
           //   label: 'Blog',
