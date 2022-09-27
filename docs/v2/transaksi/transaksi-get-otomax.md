@@ -1,19 +1,19 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 ---
 
-# Menggunakan Method GET Versi 2
+# Otomax
 
-Melakukan pembelian produk menggunakan Metode GET VERSI 2
+Melakukan pembelian produk menggunakan Metode GET (versi 2) Khusus untuk software pulsa otomax bisa menggunakan jalur transaksi ini
 
 :::warning
-[BACA KETENTUAN](/docs/peringatan)
+[BACA KETENTUAN](/docs/v2/pendahuluan)
 :::
 
 ## Endpoint
 
 ```bash
-https://v1.apigames.id/v2/transaksi?ref_id=[ref_id]&merchant_id=[merchant_id]&produk=[kode_produk]&tujuan=[tujuan]&signature=[signature]&server_id=[server_id]
+https://v1.apigames.id/v2/transaksi-otomax?ref_id=[ref_id]&merchant_id=[merchant_id]&produk=[kode_produk]&tujuan=[tujuan]&secret=[secret]&server_id=
 ```
 
 ## HTTP Method
@@ -28,6 +28,7 @@ GET
 
 Berikut adalah parameter yang di harapkan
 
+
 | Parameter   | Deskripsi                                                                                        | Tipe Data | Wajib |
 | ----------- | ------------------------------------------------------------------------------------------------ | --------- | ----- |
 | ref_id      | Ref ID unik Anda                                                                                 | String    | Ya    |
@@ -35,44 +36,24 @@ Berikut adalah parameter yang di harapkan
 | produk      | Kode Produk [_Bisa menggunakan prefix custom misalnya **AGML80** untuk produk **ML80**_](#)      | String    | Ya    |
 | tujuan      | Tujuan Pengisian                                                                                 | String    | Ya    |
 | server_id      | Jika produk tidak memilik server_id, maka kosongkan saja                                                                                 | String    | Tidak    |
-| signature   | Signature dengan formula **md5(merchant_id:secret_key:ref_id)**      | String    | Ya    |
-
+| secret   | Secret Key anda [Lihat Pengaturan Secret Key](https://member.apigames.id/pengaturan/secret-key)      | String    | Ya    |
 ### Contoh
 
 ```bash
-https://v1.apigames.id/v2/transaksi?ref_id=sdfs&merchant_id=M220122MLSS1954B&produk=ff5&tujuan=4645&signature=30d19bbcd6c9784c020b135c818e8291c00e1a3d12e143c7bb924492c1e57cfb&server_id
+https://v1.apigames.id/v2/transaksi-http-get-text?ref_id=sdfsdx2x&merchant_id=M220718CYCO7033KFF&produk=ff5&tujuan=4645&secret=30d19bbcd6c9784c020b135c818e8291c00e1a3d12e143c7bb924492c1e57cfb&server_id=
 ```
 
 ## Response
 
-### Deskripsi
-
 ### Contoh Response Sukses
 
-```json
-{
-    "data": {
-        "merchant_id": "M220122BUKA1954B",
-        "trx_id": "T220920XHPG000006",
-        "ref_id": "sdfs",
-        "destination": "4645",
-        "product_code": "ff5",
-        "product_code_master": "ff5",
-        "message": "R#sdfs ff5.4645, status PENDING. . Sisa saldo 99049800",
-        "status": "Pending",
-        "sn": "",
-        "last_balance": "99049800",
-        "product_detail": {
-            "name": "",
-            "code": "ff5",
-            "price": 3,
-            "price_unit": "garena shell",
-            "rate": 250,
-            "price_rp": 750
-        }
-    },
-    "status": 1
-}
+```bash
+R#sdfsd ff5.4645, status PROSES. dx. Sisa saldo 99049800
 ```
 
 ### Contoh Response Gagal
+
+
+```bash
+R#sdfsd ff5.4645, status GAGAL. dx. Sisa saldo 99049800
+```

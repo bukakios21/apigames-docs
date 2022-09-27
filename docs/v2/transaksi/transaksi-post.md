@@ -2,13 +2,14 @@
 sidebar_position: 2
 ---
 
-# Menggunakan Method POST Versi 2
+# Method POST
 
 Melakukan pembelian produk menggunakan Metode POST melalui api versi 2
 
 
 :::warning
-[BACA KETENTUAN](/docs/peringatan)
+[BACA KETENTUAN](/docs/v2/pendahuluan)
+
 :::
 
 ## Endpoint

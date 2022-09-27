@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Menggunakan Method GET
+# Method GET
 
-Melakukan pembelian produk menggunakan Metode GET
+Melakukan pembelian produk menggunakan Metode GET 
 
 ## Endpoint
 

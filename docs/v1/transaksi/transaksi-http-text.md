@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
-# Transaksi HTTP Text (Otomax, IRS, Dll)
+# HTTP Text
 
 Melakukan pembelian produk menggunakan Metode GET Khusus untuk software pulsa, otomax, irs, dan software pulsa lainnya, bisa menggunakan jalur transaksi ini
 

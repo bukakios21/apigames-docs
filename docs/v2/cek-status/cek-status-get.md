@@ -2,12 +2,12 @@
 sidebar_position: 3
 ---
 
-# Cek Status Transaksi GET & POST V2
+# Method GET
 
 Pengecekan status transaksi versi 2 menggunakan **Ref ID**
 
 :::warning
-[BACA KETENTUAN](/docs/peringatan)
+[BACA KETENTUAN](/docs/v2/pendahuluan)
 :::
 
 ## Endpoint

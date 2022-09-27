@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Menggunakan Method POST
+# Method POST
 
 Melakukan pembelian produk menggunakan Metode POST
 
