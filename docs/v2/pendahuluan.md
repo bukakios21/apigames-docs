@@ -33,7 +33,7 @@ Untuk mendapatkan status transaksi terbaru **JANGAN** hit ke API transaksi, tapi
 
 Apabila terjadi **TRANSAKSI DOUBLE**, di **luar tanggung jawab kami**
 
-Pada **MEMBER AREA**, sudah ditambahkan tombol resend **WEBHOOK / REPORT**
+Pada **MEMBER AREA**, sudah ditambahkan tombol resend **WEBHOOK / REPORT** manual
 :::
 
 
