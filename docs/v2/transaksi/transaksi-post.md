@@ -36,6 +36,8 @@ Berikut adalah struktur JSON yang diharapkan:
 | merchant_id | Merchant ID Anda [Lihat Pengaturan Secret Key](https://member.apigames.id/pengaturan/secret-key) | String    | Ya    |
 | produk      | Kode Produk [_Bisa menggunakan prefix custom misalnya **AGML80** untuk produk **ML80**_](#)      | String    | Ya    |
 | tujuan      | Tujuan Pengisian                                                                                 | String    | Ya    |
+| server_id      | Server ID                                                                                 | String    | Ya    |
+
 | signature   | Signature dengan formula **md5(merchant_id:secret_key:ref_id)**      | String    | Ya    |
 
 ### Contoh
@@ -53,31 +55,22 @@ Berikut adalah struktur JSON yang diharapkan:
 ## Response
 
 ### Deskripsi
-### Contoh Response Error
-
-```json
-{
-    "error_msg": "Signature not valid",
-    "status": 0
-}
-```
-### Contoh Response Sukses
-
+### Contoh Response 
 ```json
 {
     "data": {
-        "merchant_id": "M220122BUKA1954B",
-        "trx_id": "T220920XHPG000006",
-        "ref_id": "sdfs",
+        "merchant_id": "M220718CYCO7033KFF",
+        "trx_id": "T220926RJWN000003",
+        "ref_id": "sdfsdx2",
         "destination": "4645",
         "product_code": "ff5",
         "product_code_master": "ff5",
-        "message": "R#sdfs ff5.4645, status PENDING. . Sisa saldo 99049800",
+        "message": "R#sdfsdx2 ff5.4645, status PENDING. BSK.AFULP. RefId : 12067803053055289057. Sisa saldo 99049000",
         "status": "Pending",
-        "sn": "",
-        "last_balance": "99049800",
+        "sn": "BSK.AFULP. RefId : 12067803053055289057",
+        "last_balance": "99049000",
         "product_detail": {
-            "name": "",
+            "name": "5 Diamond Free Fire",
             "code": "ff5",
             "price": 3,
             "price_unit": "garena shell",
@@ -87,10 +80,4 @@ Berikut adalah struktur JSON yang diharapkan:
     },
     "status": 1
 }
-```
-
-### Contoh Response Gagal
-
-```json
-
 ```

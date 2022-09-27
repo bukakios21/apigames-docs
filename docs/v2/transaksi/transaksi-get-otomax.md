@@ -50,9 +50,3 @@ https://v1.apigames.id/v2/transaksi-http-get-text?ref_id=sdfsdx2x&merchant_id=M2
 ```bash
 R#sdfsd ff5.4645, status PROSES. dx. Sisa saldo 99049800
 ```
-
-### Contoh Response Error
-
-```bash
-status ERROR. Signature not valid
-```
