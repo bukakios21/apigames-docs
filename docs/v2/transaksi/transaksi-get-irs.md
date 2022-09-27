@@ -10,6 +10,10 @@ Melakukan pembelian produk menggunakan Metode GET (versi 2) Khusus untuk softwar
 [BACA KETENTUAN](/docs/v2/pendahuluan)
 :::
 
+::danger
+
+::
+
 ## Endpoint
 
 ```bash
@@ -49,6 +53,12 @@ https://v1.apigames.id/v2/transaksi-http-get-text?ref_id=sdfsdx2x&merchant_id=M2
 
 ```bash
 R#122xxe3322221 ff5.2772860208223211111, status PROSES. u2772860208223211111. Sisa saldo 99048675
+```
+
+### Contoh Response Error
+
+```bash
+status ERROR. Signature not valid
 ```
 
 

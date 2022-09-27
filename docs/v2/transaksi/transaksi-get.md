@@ -75,3 +75,11 @@ https://v1.apigames.id/v2/transaksi?ref_id=sdfs&merchant_id=M220718CYXXXXX3KFF&p
 }
 ```
 
+### Contoh Response Error
+
+```json
+{
+    "error_msg": "Signature not valid",
+    "status": 0
+}
+

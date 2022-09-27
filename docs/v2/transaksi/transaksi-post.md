@@ -80,3 +80,11 @@ Berikut adalah struktur JSON yang diharapkan:
     "status": 1
 }
 ```
+
+### Contoh Response Error
+
+```json
+{
+    "error_msg": "Signature not valid",
+    "status": 0
+}
