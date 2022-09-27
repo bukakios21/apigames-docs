@@ -42,7 +42,7 @@ Berikut adalah parameter yang di harapkan
 ```json
 {
   "ref_id": "TRX0007",
-  "merchant_id": "M2201224830954B",
+  "merchant_id": "M220718CYXXXXX3KFF",
   "signature": "fa375f4e30dbe2cdcf5d1ee0e9d678ad"
 }
 

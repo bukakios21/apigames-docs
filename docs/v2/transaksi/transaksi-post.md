@@ -44,7 +44,7 @@ Berikut adalah struktur JSON yang diharapkan:
 ```json
 {
   "ref_id": "TRX0007",
-  "merchant_id": "M2201224830954B",
+  "merchant_id": "M220718CYXXXXX3KFF",
   "produk": "ML86",
   "tujuan": "77698934212097",
   "signature": "fa375f4e3dsdbe2cdcf5d1ee0e9d678ad"
