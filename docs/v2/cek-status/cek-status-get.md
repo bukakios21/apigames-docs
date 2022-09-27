@@ -41,7 +41,7 @@ Berikut adalah parameter yang di harapkan
 ### Contoh
 
 ```bash
-https://v1.apigames.id/v2/transaksi/status?merchant_id=M220718CYCO7033KFF&ref_id=sdfsdx2&signature=1db518e0c97adb24cddc77be3c806773
+https://v1.apigames.id/v2/transaksi/status?merchant_id=M220718CYXXXXX3KFF&ref_id=sdfsdx2&signature=1db518e0c97adb24cddc77be3c806773
 ```
 
 ## Response
@@ -60,8 +60,8 @@ https://v1.apigames.id/v2/transaksi/status?merchant_id=M220718CYCO7033KFF&ref_id
 ```json
 {
     "data": {
-        "merchant_id": "M220718CYCO7033KFF",
-        "trx_id": "T220926RJWN000003",
+        "merchant_id": "M220718CYXXXXX3KFF",
+        "trx_id": "T220926XXXXX00003",
         "ref_id": "sdfsdx2",
         "destination": "4645",
         "product_code": "ff5",
@@ -88,8 +88,8 @@ https://v1.apigames.id/v2/transaksi/status?merchant_id=M220718CYCO7033KFF&ref_id
 ```json
 {
     "data": {
-        "merchant_id": "M220718CYCO7033KFF",
-        "trx_id": "T220926RJWN000003",
+        "merchant_id": "M220718CYXXXXX3KFF",
+        "trx_id": "T220926XXXXX00003",
         "ref_id": "sdfsdx2",
         "destination": "4645",
         "product_code": "ff5",
@@ -117,8 +117,8 @@ https://v1.apigames.id/v2/transaksi/status?merchant_id=M220718CYCO7033KFF&ref_id
 ```json
 {
     "data": {
-        "merchant_id": "M220718CYCO7033KFF",
-        "trx_id": "T220926RJWN000003",
+        "merchant_id": "M220718CYXXXXX3KFF",
+        "trx_id": "T220926XXXXX00003",
         "ref_id": "sdfsdx2",
         "destination": "4645",
         "product_code": "ff5",
@@ -146,8 +146,8 @@ https://v1.apigames.id/v2/transaksi/status?merchant_id=M220718CYCO7033KFF&ref_id
 ```json
 {
     "data": {
-        "merchant_id": "M220718CYCO7033KFF",
-        "trx_id": "T220926RJWN000003",
+        "merchant_id": "M220718CYXXXXX3KFF",
+        "trx_id": "T220926XXXXX00003",
         "ref_id": "sdfsdx2",
         "destination": "4645",
         "product_code": "ff5",
@@ -174,8 +174,8 @@ https://v1.apigames.id/v2/transaksi/status?merchant_id=M220718CYCO7033KFF&ref_id
 ```json
 {
     "data": {
-        "merchant_id": "M220718CYCO7033KFF",
-        "trx_id": "T220926RJWN000003",
+        "merchant_id": "M220718CYXXXXX3KFF",
+        "trx_id": "T220926XXXXX00003",
         "ref_id": "sdfsdx2",
         "destination": "4645",
         "product_code": "ff5",
@@ -202,8 +202,8 @@ https://v1.apigames.id/v2/transaksi/status?merchant_id=M220718CYCO7033KFF&ref_id
 ```json
 {
     "data": {
-        "merchant_id": "M220718CYCO7033KFF",
-        "trx_id": "T220926RJWN000003",
+        "merchant_id": "M220718CYXXXXX3KFF",
+        "trx_id": "T220926XXXXX00003",
         "ref_id": "sdfsdx2",
         "destination": "4645",
         "product_code": "ff5",

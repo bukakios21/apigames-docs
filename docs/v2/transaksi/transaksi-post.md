@@ -44,10 +44,10 @@ Berikut adalah struktur JSON yang diharapkan:
 ```json
 {
   "ref_id": "TRX0007",
-  "merchant_id": "M220122BUKA1954B",
+  "merchant_id": "M2201224830954B",
   "produk": "ML86",
   "tujuan": "77698934212097",
-  "signature": "fa375f4e30dbe2cdcf5d1ee0e9d678ad"
+  "signature": "fa375f4e3dsdbe2cdcf5d1ee0e9d678ad"
 }
 ```
 
@@ -58,8 +58,8 @@ Berikut adalah struktur JSON yang diharapkan:
 ```json
 {
     "data": {
-        "merchant_id": "M220718CYCO7033KFF",
-        "trx_id": "T220926RJWN000003",
+        "merchant_id": "M220718CYXXXXX3KFF",
+        "trx_id": "T220926XXXXX00003",
         "ref_id": "sdfsdx2",
         "destination": "4645",
         "product_code": "ff5",

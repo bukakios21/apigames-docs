@@ -20,8 +20,8 @@ Kami akan mengirimkan report ke webhook anda setiap ada perubahan status transak
 
 ```json
 {
-  "merchant_id": "M220718CYCO7033KFF",
-  "trx_id": "T220926RJWN000003",
+  "merchant_id": "M220718CYXXXXX3KFF",
+  "trx_id": "T220926XXXXX00003",
   "ref_id": "sdfsdx2",
   "destination": "4645",
   "product_code": "ff5",
@@ -45,7 +45,7 @@ Kami akan mengirimkan report ke webhook anda setiap ada perubahan status transak
 
 ```json
 {
-  "merchant_id": "M220718CYCO7033KFF",
+  "merchant_id": "M220718CYXXXXX3KFF",
   "trx_id": "T220927DVXS000006",
   "ref_id": "122xxe3322221",
   "destination": "2772860208223211111",

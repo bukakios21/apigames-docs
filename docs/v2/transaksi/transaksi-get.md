@@ -52,8 +52,8 @@ https://v1.apigames.id/v2/transaksi?ref_id=sdfs&merchant_id=M220122MLSS1954B&pro
 ```json
 {
     "data": {
-        "merchant_id": "M220718CYCO7033KFF",
-        "trx_id": "T220926RJWN000003",
+        "merchant_id": "M220718CYXXXXX3KFF",
+        "trx_id": "T220926XXXXX00003",
         "ref_id": "sdfsdx2",
         "destination": "4645",
         "product_code": "ff5",

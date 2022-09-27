@@ -15,7 +15,7 @@ Kami akan mengirimkan report kepada anda setiap ada perubahan status transaksi P
 ### Sample Report Sukses
 
 ```bash
-https://url-mitra.com/report?serverid=T220926RJWN000003&clientid=sdfsdx2&statuscode=1&kp=ff5&msisdn=4645&sn=BSK%2CAFULP%2C%20RefId%20%3A%2012067803053055289057&msg=R%23sdfsdx2%20ff5.4645%2C%20status%20SUKSES.%20SN%2FRef%3A%20BSK.AFULP.%20RefId%20%3A%2012067803053055289057.%20Sisa%20saldo%2099049000
+https://url-mitra.com/report?serverid=T220926XXXXX00003&clientid=sdfsdx2&statuscode=1&kp=ff5&msisdn=4645&sn=BSK%2CAFULP%2C%20RefId%20%3A%2012067803053055289057&msg=R%23sdfsdx2%20ff5.4645%2C%20status%20SUKSES.%20SN%2FRef%3A%20BSK.AFULP.%20RefId%20%3A%2012067803053055289057.%20Sisa%20saldo%2099049000
 ```
 
 

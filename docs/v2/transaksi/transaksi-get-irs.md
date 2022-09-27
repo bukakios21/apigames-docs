@@ -40,7 +40,7 @@ Berikut adalah parameter yang di harapkan
 ### Contoh
 
 ```bash
-https://v1.apigames.id/v2/transaksi-http-get-text?ref_id=sdfsdx2x&merchant_id=M220718CYCO7033KFF&produk=ff5&tujuan=4645&secret=30d19bbcd6c9784c020b135c818e8291c00e1a3d12e143c7bb924492c1e57cfb&server_id=
+https://v1.apigames.id/v2/transaksi-http-get-text?ref_id=sdfsdx2x&merchant_id=M220718CYXXXXX3KFF&produk=ff5&tujuan=4645&secret=30d19bbcd6c9784c020b135c818e8291c00e1a3d12e143c7bb924492c1e57cfb&server_id=
 ```
 
 ## Response

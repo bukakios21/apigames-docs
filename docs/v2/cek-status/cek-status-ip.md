@@ -41,7 +41,7 @@ Berikut adalah parameter yang di harapkan
 ### Contoh
 
 ```bash
-https://v1.apigames.id/v2/transaksi/status-get-text?merchant_id=M220718CYCO7033KFF&ref_id=sdfsdx2&secret=30d19bbcd6c9784c020b135c818e8291c00e1a3d12e143c7bb924492c1e57cfb
+https://v1.apigames.id/v2/transaksi/status-get-text?merchant_id=M220718CYXXXXX3KFF&ref_id=sdfsdx2&secret=30d19bbcd6c9784c020b135c818e8291c00e1a3d12e143c7bb924492c1e57cfb
 ```
 
 ## Response
