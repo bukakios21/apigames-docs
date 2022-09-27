@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Method GET
 
-Pengecekan status transaksi versi 2 menggunakan **Ref ID**
+Pengecekan status transaksi versi 2
 
 :::warning
 [BACA KETENTUAN](/docs/v2/pendahuluan)
@@ -34,8 +34,6 @@ Berikut adalah parameter yang di harapkan
 | merchant_id | Merchant ID Anda [Lihat Pengaturan Secret Key](https://member.apigames.id/pengaturan/secret-key) | String    | Ya    |
 | ref_id      | Ref ID unik Anda                                                                                 | String    | Ya    |
 | signature   | Signature dengan formula **md5(merchant_id:secret_key:ref_id)**      | String    | Ya    |
-
-
 
 
 ### Contoh
