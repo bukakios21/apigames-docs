@@ -36,8 +36,7 @@ Berikut adalah struktur JSON yang diharapkan:
 | merchant_id | Merchant ID Anda [Lihat Pengaturan Secret Key](https://member.apigames.id/pengaturan/secret-key) | String    | Ya    |
 | produk      | Kode Produk [_Bisa menggunakan prefix custom misalnya **AGML80** untuk produk **ML80**_](#)      | String    | Ya    |
 | tujuan      | Tujuan Pengisian                                                                                 | String    | Ya    |
-| server_id      | Server ID                                                                                 | String    | Ya    |
-
+| server_id      | Isi string kosong "" jika produk tidak memiliki Server ID                                     | String    | Ya    |
 | signature   | Signature dengan formula **md5(merchant_id:secret_key:ref_id)**      | String    | Ya    |
 
 ### Contoh
