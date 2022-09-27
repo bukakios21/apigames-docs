@@ -45,10 +45,10 @@ https://v1.apigames.id/v2/transaksi-http-get-text?ref_id=sdfsdx2x&merchant_id=M2
 
 ## Response
 
-### Contoh Response 
+### Contoh Response
 
 ```bash
-R#sdfsd ff5.4645, status PROSES. dx. Sisa saldo 99049800
+R#122xxe3322221 ff5.2772860208223211111, status PROSES. u2772860208223211111. Sisa saldo 99048675
 ```
 
 
