@@ -47,7 +47,14 @@ https://v1.apigames.id/v2/transaksi?ref_id=sdfs&merchant_id=M220122MLSS1954B&pro
 ## Response
 
 ### Deskripsi
+### Contoh Response Error
 
+```json
+{
+    "error_msg": "Signature not valid",
+    "status": 0
+}
+```
 ### Contoh Response Sukses
 
 ```json

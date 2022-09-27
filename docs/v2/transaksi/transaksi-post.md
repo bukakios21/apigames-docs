@@ -53,7 +53,14 @@ Berikut adalah struktur JSON yang diharapkan:
 ## Response
 
 ### Deskripsi
+### Contoh Response Error
 
+```json
+{
+    "error_msg": "Signature not valid",
+    "status": 0
+}
+```
 ### Contoh Response Sukses
 
 ```json

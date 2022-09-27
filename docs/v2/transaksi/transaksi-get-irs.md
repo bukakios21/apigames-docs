@@ -2,9 +2,9 @@
 sidebar_position: 3
 ---
 
-# Otomax
+# IRS
 
-Melakukan pembelian produk menggunakan Metode GET (versi 2) Khusus untuk software pulsa otomax bisa menggunakan jalur transaksi ini
+Melakukan pembelian produk menggunakan Metode GET (versi 2) Khusus untuk software pulsa IRS bisa menggunakan jalur transaksi ini
 
 :::warning
 [BACA KETENTUAN](/docs/v2/pendahuluan)
@@ -13,7 +13,7 @@ Melakukan pembelian produk menggunakan Metode GET (versi 2) Khusus untuk softwar
 ## Endpoint
 
 ```bash
-https://v1.apigames.id/v2/transaksi-otomax?ref_id=[ref_id]&merchant_id=[merchant_id]&produk=[kode_produk]&tujuan=[tujuan]&secret=[secret]&server_id=
+https://v1.apigames.id/v2/transaksi-irs?ref_id=[ref_id]&merchant_id=[merchant_id]&produk=[kode_produk]&tujuan=[tujuan]&secret=[secret]&server_id=
 ```
 
 ## HTTP Method
@@ -45,14 +45,10 @@ https://v1.apigames.id/v2/transaksi-http-get-text?ref_id=sdfsdx2x&merchant_id=M2
 
 ## Response
 
-### Contoh Response
+### Contoh Response 
 
 ```bash
 R#sdfsd ff5.4645, status PROSES. dx. Sisa saldo 99049800
 ```
 
-### Contoh Response Error
 
-```bash
-status ERROR. Signature not valid
-```
