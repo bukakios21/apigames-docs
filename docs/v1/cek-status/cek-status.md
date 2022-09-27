@@ -1,8 +1,8 @@
 ---
-sidebar_position: 3
+sidebar_position: 1
 ---
 
-# Cek Status Transaksi
+# Method GET
 
 Pengecekan status transaksi menggunakan **Ref ID**
 
