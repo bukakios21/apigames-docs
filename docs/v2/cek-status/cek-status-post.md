@@ -1,8 +1,8 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 
-# Method GET
+# Method POST
 
 Pengecekan status transaksi versi 2 menggunakan **Ref ID**
 
@@ -13,13 +13,13 @@ Pengecekan status transaksi versi 2 menggunakan **Ref ID**
 ## Endpoint
 
 ```bash
-https://v1.apigames.id/v2/transaksi/status?merchant_id=[merchant_id]&ref_id=[ref_id]&signature=[signature]
+https://v1.apigames.id/v2/transaksi/status
 ```
 
 ## HTTP Method
 
 ```
-GET
+POST
 ```
 
 ## Request
@@ -37,10 +37,15 @@ Berikut adalah parameter yang di harapkan
 
 
 
-### Contoh
+### Contoh Payload
 
-```bash
-https://v1.apigames.id/v2/transaksi/status?merchant_id=M220718CYCO7033KFF&ref_id=sdfsdx2&signature=1db518e0c97adb24cddc77be3c806773
+```json
+{
+  "ref_id": "TRX0007",
+  "merchant_id": "M220122BUKA1954B",
+  "signature": "fa375f4e30dbe2cdcf5d1ee0e9d678ad"
+}
+
 ```
 
 ## Response
