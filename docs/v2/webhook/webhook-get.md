@@ -9,7 +9,7 @@ Ini merupakan sample webhook yang kami kirimkan kepada anda jika menggunakan tra
 :::
 
 :::info
-Kami akan mengirimkan report ke webhook anda setiap ada perubahan status transaksi Pastikan untuk Whitelist IP Kami : 107.155.65.115
+Kami akan mengirimkan report ke webhook anda setiap ada perubahan status transaksi Pastikan untuk Whitelist IP Kami : **107.155.65.115**
 :::
 
 ## Header

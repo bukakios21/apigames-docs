@@ -5,7 +5,7 @@ sidebar_position: 3
 # Trx via Otomax / IRS
 
 :::info
-Kami akan mengirimkan report kepada anda setiap ada perubahan status transaksi Pastikan untuk Whitelist IP Kami :107.155.65.115 Tokovoucher akan mengirimkan balasan SUKSES / GAGAL ke url Anda dengan format sebagai berikut:
+Kami akan mengirimkan report kepada anda setiap ada perubahan status transaksi Pastikan untuk Whitelist IP Kami :**107.155.65.115**Tokovoucher akan mengirimkan balasan SUKSES / GAGAL ke url Anda dengan format sebagai berikut:
 :::
 
 
