@@ -5,6 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'Easy Integration',
+    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
         Single API untuk berbagai macam topup game dan tersedia api dokumentasi yang lengkap
@@ -13,6 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Fast Transaction',
+    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
         Proses Transaksi hanya dalam hitungan detik sudah berhasil di proses.
@@ -21,6 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Laporan Transaksi',
+    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
        Laporan & Rangkuman transaksi di kemas secara rinci dan mudah untuk di pahami
