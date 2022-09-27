@@ -24,11 +24,16 @@ Apabila terjadi **TRANSAKSI DOUBLE**, di **luar tanggung jawab kami**
 **STATUS TRANSAKSI**
 
 - **Pending**, transaksi awal
+
 - **Sukses**, transaksi sukses dilakukan
+
 - **Gagal**, transaksi gagal dilakukan
+
 - **Proses**, transaksi sedang diproses
+
 - **Sukses Sebagian**, dikarenakan beberapa produk di apigames merupakan gabungan dari produk nominal lainnya, contoh seperti **ML 15 DIAMOND** merupakan gabungan dari **ML 5 DIAMOND** dan **ML 10 DIAMOND**, artinya apigames harus melakukan 2x transaksi, namun yang sukses hanya sebagian.
-- **Validasi Provider**, transaksi sukses dilakukan
+
+- **Validasi Provider**, apigames tidak mendapatkan response yang seharusnya, seperti provider down atau error lainnya yang tidak dikenali oleh apigames.
 :::
 
 :::warning
