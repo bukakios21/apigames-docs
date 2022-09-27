@@ -12,14 +12,6 @@ Ada beberapa poin yang perlu di pahami:
 - status transaksi dari apigames : **Pending, Sukses,  Gagal, Proses, Sukses Sebagian, Validasi Provider**
 :::
 
-
-
-:::warning
-Cek status transaksi JANGAN hit ke API transaksi, tapi lakukan dengan API cek status transaksi atau menunggu dari webhook/report yang kami kirimkan.
-
-Apabila terjadi **TRANSAKSI DOUBLE**, di **luar tanggung jawab kami**
-:::
-
 :::info
 **STATUS TRANSAKSI**
 
@@ -35,6 +27,15 @@ Apabila terjadi **TRANSAKSI DOUBLE**, di **luar tanggung jawab kami**
 
 - **Validasi Provider**, apigames tidak mendapatkan response yang seharusnya, seperti provider down atau error lainnya yang tidak dikenali oleh apigames.
 :::
+
+:::warning
+Untuk mendapatkan status transaksi terbaru **JANGAN** hit ke API transaksi, tapi lakukan dengan **API CEK STATUS TRANSAKSI** atau menunggu dari **WEBHOOK / REPORT** yang apigames kirimkan.
+
+Apabila terjadi **TRANSAKSI DOUBLE**, di **luar tanggung jawab kami**
+
+Pada **MEMBER AREA**, sudah ditambahkan tombol resend **WEBHOOK / REPORT**
+:::
+
 
 :::warning
 Status transaksi yang di percaya hanya dari **WEBHOOK / REPORT** dan **API CEK STATUS TRANSAKSI** berdasarkan status yang sudah tertera di atas.
