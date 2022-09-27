@@ -10,9 +10,9 @@ Melakukan pembelian produk menggunakan Metode GET (versi 2) Khusus untuk softwar
 [BACA KETENTUAN](/docs/v2/pendahuluan)
 :::
 
-<!-- ::danger
-
-:: -->
+:::danger
+Khusus untuk IRS, response pertama kali yang di berikan adalah proses.
+:::
 
 ## Endpoint
 
@@ -44,7 +44,7 @@ Berikut adalah parameter yang di harapkan
 ### Contoh
 
 ```bash
-https://v1.apigames.id/v2/transaksi-http-get-text?ref_id=sdfsdx2x&merchant_id=M220718CYXXXXX3KFF&produk=ff5&tujuan=2772860208223211111&secret=30d19bbcd6c9784c020b135c818e8291c00e1a3d12e143c7bb924492c1e57cfb&server_id=
+https://v1.apigames.id/v2/transaksi-irs?ref_id=sdfsdx2x&merchant_id=M220718CYXXXXX3KFF&produk=ff5&tujuan=2772860208223211111&secret=30d19bbcd6c9784c020b135c818e8291c00e1a3d12e143c7bb924492c1e57cfb&server_id=
 ```
 
 ## Response
@@ -52,7 +52,7 @@ https://v1.apigames.id/v2/transaksi-http-get-text?ref_id=sdfsdx2x&merchant_id=M2
 ### Contoh Response
 
 ```bash
-R#122xxe3322221 ff5.2772860208223211111, status PROSES. u2772860208223211111. Sisa saldo 99048675
+R#tes1 ff5.277286020, status PROSES. . Sisa saldo 99048600
 ```
 
 ### Contoh Response Error
