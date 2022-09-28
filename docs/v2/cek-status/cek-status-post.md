@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Method POST
 
-Pengecekan status transaksi versi 2 menggunakan **Ref ID**
+Pengecekan status transaksi versi 2
 
 :::warning
 [BACA KETENTUAN](/docs/v2/pendahuluan)

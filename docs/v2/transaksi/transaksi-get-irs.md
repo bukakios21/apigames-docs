@@ -11,7 +11,7 @@ Melakukan pembelian produk menggunakan Metode GET (versi 2) Khusus untuk softwar
 :::
 
 :::danger
-Khusus untuk IRS, response pertama kali yang di berikan adalah proses.
+Khusus untuk IRS, response pertama kali yang di berikan adalah **PROSES**.
 :::
 
 ## Endpoint

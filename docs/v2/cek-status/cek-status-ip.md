@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # HTTP TEXT / IP
 
-Pengecekan status transaksi versi 2 menggunakan **Ref ID**
+Pengecekan status transaksi versi 2
 
 :::warning
 [BACA KETENTUAN](/docs/v2/pendahuluan)
@@ -46,12 +46,16 @@ https://v1.apigames.id/v2/transaksi/status-get-text?merchant_id=M220718CYXXXXX3K
 
 ## Response
 
-### Deskripsi
-
 ### Contoh Response Error
 
 ```bash
 status ERROR. Signature not valid
+```
+
+### Contoh Response Gagal
+
+```bash
+R#sdfsdx2 ff5.4645, status GAGAL. error_require_login. Sisa saldo 99049000
 ```
 
 ### Contoh Response Validasi Provider
