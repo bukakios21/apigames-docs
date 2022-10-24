@@ -47,6 +47,7 @@ Berikut adalah struktur JSON yang diharapkan:
   "merchant_id": "M220718CYXXXXX3KFF",
   "produk": "ff5",
   "tujuan": "4645",
+  "server_id": "",
   "signature": "fa375f4e3dsdbe2cdcf5d1ee0e9d678ad"
 }
 ```
